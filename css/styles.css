@@ -1,3 +1,71 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+}
+.address,
+.footer-address {
+  font-style: normal;
+}
+
+/*--HEADER--*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.color-web {
+  color: var(--accent-color);
+}
+.navigation-list-link,
+.address-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+li .address-list-link {
+  color: #757575;
+}
+
+.navigation-list-link:hover,
+.address-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
+/*--END HEADER---*.
+
+ /*--Главная секция--*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*--color: #FFFFFF;--*/
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /*--color: #ffffff;--*/
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -11,3 +79,68 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.main-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  text-transform: uppercase;
+}
+.main-list-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*--END Главная секция--*/
+
+/*--Галлерея работ--*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*--END Галлерея работ--*/
+
+/*--Сотрудники--*/
+
+.about-me-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.about-me-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*--FOOTER--*/
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*--color: rgba(255, 255, 255, 0.6);--*/
+}
+
+/*--.footer-address-link,.geolocation {
+  color: #ffffff;
+}--*/
+
+.footer-address-link:hover {
+  color: var(--accent-color);
+}
+/*--.logo,
+.footer {
+  color: #ffffff;
+}--*/
+/*--END FOOTER--*/
