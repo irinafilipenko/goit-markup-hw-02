@@ -43,6 +43,10 @@ li .address-list-link {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /*--END HEADER---*.
 
  /*--Главная секция--*/
