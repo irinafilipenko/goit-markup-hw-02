@@ -2,6 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --third-color:  #757575;
 }
 
 body {
@@ -10,6 +11,14 @@ body {
 .address,
 .footer-address {
   font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 /*--HEADER--*/
@@ -34,7 +43,7 @@ body {
 }
 
 li .address-list-link {
-  color: #757575;
+  color: var(--third-color);
 }
 
 .navigation-list-link:hover,
@@ -59,6 +68,7 @@ li .address-list-link {
   text-transform: uppercase;
   /*--color: #FFFFFF;--*/
 }
+
 .modal-btn {
   font-weight: 700;
   font-size: 16px;
@@ -95,7 +105,7 @@ li .address-list-link {
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-color);
 }
 /*--END Главная секция--*/
 
@@ -124,7 +134,7 @@ li .address-list-link {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-color);
 }
 
 /*--FOOTER--*/
@@ -140,11 +150,43 @@ li .address-list-link {
   color: #ffffff;
 }--*/
 
-.footer-address-link:hover {
+.footer-address-link:hover
   color: var(--accent-color);
 }
+
 /*--.logo,
 .footer {
   color: #ffffff;
 }--*/
+
 /*--END FOOTER--*/
+
+                       /*_----------PORTFOLIO---------------*/
+   /*--Главная секция--*/
+
+.device-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.modal-btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.device-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+ 
+.modal-btn-portfolio:hover {
+  color: #FFFFFF;
+}
